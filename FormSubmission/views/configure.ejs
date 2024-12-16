@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configure Dates</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Select Two Dates</h1>
+    <form action="/calculate" method="POST">
+        <label for="startDate">Start Date:</label>
+        <input type="date" name="startDate" required>
+        <br>
+        <label for="endDate">End Date:</label>
+        <input type="date" name="endDate" required>
+        <br>
+        <button type="submit">Calculate Time Period</button>
+    </form>
+</body>
+</html>
